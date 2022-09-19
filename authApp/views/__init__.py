@@ -1,0 +1,6 @@
+from .usuarioCreateView import CrearUsuarioView
+from .familiarCreateView import CrearFamiliarView
+from .psaludCreateView import CrearPsaludView
+from .pacienteCreateView import CrearPacienteView
+from .histclinicaCreateView import CrearHistclinicaView
+from .sigvitalesCreateView import CrearSigvitalesView
