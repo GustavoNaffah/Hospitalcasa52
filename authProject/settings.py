@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'authApp',
-    'corsheaders',
+   # 'corsheaders',
 ]
 
 SIMPLE_JWT = {
@@ -64,8 +64,6 @@ REST_FRAMEWORK = {
     )
 }
 
-AUTH_USER_MODEL = 'authApp.Usuario'
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -77,6 +75,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
 ]
 
+AUTH_USER_MODEL = 'authApp.Usuario'
 ROOT_URLCONF = 'authProject.urls'
 
 TEMPLATES = [
